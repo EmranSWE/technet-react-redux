@@ -6,7 +6,7 @@ import { useToast } from '@/components/ui/use-toast';
 import {
   setPriceRange,
   toggleState,
-} from '@/redux/feature/products/productSlice';
+} from '../redux/feature/products/productSlice';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { IProduct } from '@/types/globalTypes';
 import { useEffect, useState } from 'react';
