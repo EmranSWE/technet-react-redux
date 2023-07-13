@@ -10,8 +10,8 @@ import {
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 // import { IProduct } from '@/types/globalTypes';
 // import { useEffect, useState } from 'react';
-import { useGetProductsQuery } from '@/redux/api/apiSlice';
 import { IProduct } from '@/types/globalTypes';
+import { useGetProductsQuery } from '@/redux/feature/products/productApi';
 
 export default function Products() {
   const { data, isLoading } = useGetProductsQuery(undefined);
